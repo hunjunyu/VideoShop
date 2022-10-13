@@ -23,8 +23,7 @@ public class VideoDaoImpl implements VideoDao{
 		System.out.println("드라이버 로딩 성공");
 	
 	}
-	
-	//
+
 	public void insertVideo(VideoVO vo, int count) throws Exception{
 		// 2. Connection 연결객체 얻어오기
 		Connection con = null;
